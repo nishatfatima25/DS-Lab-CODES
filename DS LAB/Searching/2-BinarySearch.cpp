@@ -12,32 +12,7 @@ int main()
         cin>>arr[i];
     }
 
-//     cout << "Enter element to be searched" << endl;
-//     cin>>e;
 
-//    int f=0;
-//     int l = n-1;
-//     while(f<=l){
-//          mid = (f+l)/2;
-//         if(e==arr[mid]){
-//             count++;
-//             break;
-//         }
-//         else if(e < arr[mid]){
-//             l = mid-1;
-//         }
-//         else{
-//             f =mid + 1;
-//         }
-//     }
-
-//     if(count==1){
-//         cout << "Element found";
-//     }
-//     else{
-//         cout << "element not found";
-//     }
-// return 0;
 
 
 cout<< "enter element to be searched" <<endl;
@@ -57,7 +32,7 @@ cout<< "enter element to be searched" <<endl;
             f = mid +1;
         }
 
-        //mid = (f+l)/2;
+       
     }
 
     if(count ==0){
