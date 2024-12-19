@@ -27,9 +27,9 @@ int main()
     }
 
     else{
-    // jis pos se del karna hai wahan se loop chalega aur last me n-1 indexx tak jayega
+    
     for(int i = pos-1; i<=n-1; i++){
-        arr[i] = arr[i+1]; // aage wale index ke element piche wale index me store honge
+        arr[i] = arr[i+1]; 
     }
      n--;
 
