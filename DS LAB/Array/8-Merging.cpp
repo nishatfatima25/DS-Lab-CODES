@@ -13,12 +13,12 @@ void merge(int arr1[],int n,int arr2[], int m, int arr3[]){
         }
     }
 
-    //copy kardo 1st array ke element ko
-    while(i<n){  // jab tak array k saare elements khtm nahi ho jate tak tak ye cond
+    
+    while(i<n){ 
         arr3[k++] = arr1[i++];
     }
 
-    //copy kardo 2nd array ke element ko
+    
     while(j<m){
         arr2[k++] = arr2[j++];
     }
