@@ -23,7 +23,7 @@ int main()
         for(int j=0; j<n;j++){
             if(a[i]==b[j]){
                 cout << a[i] << " ";
-                break; //isse ek baar element check kaarlia toh break hoga same element wapas check nahi hoga
+                break; 
             }
         }
     }
