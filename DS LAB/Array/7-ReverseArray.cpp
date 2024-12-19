@@ -3,11 +3,11 @@ using namespace std;
 
 void revArray(int arr[], int n){
     int start =0;
-    int end = n-1;  //index hai na isliye n-1
+    int end = n-1;  
 
     while(start<=end){
-    swap(arr[start],arr[end]); // ye in built function hota hai
-        start++;  //start badhate jayenge aur end ko kam aur phir swapping
+    swap(arr[start],arr[end]); 
+        start++;  
         end--;
     }
 }
